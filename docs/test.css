@@ -45,6 +45,11 @@ ul, li {
   list-style: none;
 }
 
+.wrapper {
+  width: 550px;
+  margin: 0 auto;
+}
+
 .test-webkit-sassui-eq-center-cells {
   border: 1px solid salmon;
   margin-bottom: 20px;
