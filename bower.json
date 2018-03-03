@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-eq-center-cells",
+  "description": "Cells eq width and height",
+  "main": [
+    "dist/webkit-sassui-eq-center-cells.css",
+    "dist/webkit-sassui-eq-center-cells.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "eq-center-cells"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

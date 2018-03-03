@@ -1,0 +1,41 @@
+/*webkit-sassui-eq-center-cells Start*/
+.webkit-sassui-eq-center-cells{
+  display: flex;
+  > * {
+    flex: 1;
+    position: relative;
+    > .bd {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &[data-cells-count="2"]{
+    > * {
+      padding-top: 50%;
+    }
+  }
+  &[data-cells-count="3"]{
+    > * {
+      padding-top: 33.33%;
+    }
+  }
+  &[data-cells-count="4"]{
+    > * {
+      padding-top: 25%;
+    }
+  }
+  &[data-cells-count="5"]{
+    > * {
+      padding-top: 20%;
+    }
+  }
+  &[data-cells-count="6"]{
+    > * {
+      padding-top: 16.66%;
+    }
+  }
+}
+/*webkit-sassui-eq-center-cells End*/

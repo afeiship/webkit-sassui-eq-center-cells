@@ -1,0 +1,12 @@
+@import "../dist/webkit-sassui-eq-center-cells.scss";
+* { margin: 0; padding: 0;}
+ul,li{ list-style: none;}
+.test-webkit-sassui-eq-center-cells{
+  border:1px solid salmon;
+  margin-bottom: 20px;
+
+  .bd{
+    background: #eee;
+    padding:20px;
+  }
+}
